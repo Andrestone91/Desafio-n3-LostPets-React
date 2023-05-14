@@ -1,17 +1,13 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import css from "./index.css";
-
-const Andres: User = {
-  name: "Andres",
-};
+import { Header } from "components/header";
 
 function Layout(props) {
   return (
     <div className={css.root}>
-      <header>header. data:</header>
+      <Header>header. data:</Header>
       <Outlet />
-      <footer>footer</footer>
     </div>
   );
 }

@@ -1,0 +1,8 @@
+.contenedor {
+  width: auto;
+  background-color: #5bff005c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
